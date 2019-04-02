@@ -1,9 +1,6 @@
 /* Main styles */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&Roboto:300');
 
-/* Variables */
-
-
 /* main */
 
 * {
@@ -37,6 +34,10 @@ li {
   border: solid #a0a4aa;
   border-width: thin;
   overflow: hidden;
+}
+
+li:hover {
+  cursor: pointer;
 }
 
 .modalClass {
@@ -85,5 +86,4 @@ a {
    position: absolute;
    top: 1%;
    right: 10%;
-   z-index: 900;
  }
